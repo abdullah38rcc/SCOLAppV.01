@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="fill_vertical"
+    android:orientation="vertical" >
+    
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile_new_top" />
+
+  
+
+    <ImageButton
+        android:id="@+id/home_button"
+        style="@style/AppTheme"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/quiz_button"
+        android:background="@drawable/button_background"
+        android:src="@drawable/home_button" />
+
+    <ImageButton
+        android:id="@+id/ozutimes_button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/championship_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/home_button"
+        android:background="@drawable/button_background"
+        android:src="@drawable/ozutimes_button" />
+
+    <ImageButton
+        android:id="@+id/quiz_button"
+        style="@style/AppTheme"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/home_button"
+        android:layout_toLeftOf="@+id/championship_button"
+        android:background="@drawable/button_background"
+        android:src="@drawable/quiz_button" />
+
+    <ImageButton
+        android:id="@+id/championship_button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/quiz_button"
+        android:layout_toLeftOf="@+id/ozutimes_button"
+        android:background="@drawable/button_background"
+        android:src="@drawable/championship_button" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home_button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/answerws" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/answer_but" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/quiz2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/quizofdday" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView7"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:src="@drawable/quiz3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/quiz1" />
+
+</RelativeLayout>
